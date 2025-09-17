@@ -1,16 +1,17 @@
 import { Component } from '@angular/core';
-import { HousingLocation } from '../housing-location/housing-location';
 import {HousingLocationInfo} from '../housinglocation';
+import {HousingLocation} from '../housing-location/housing-location';
+
 
 @Component({
   selector: 'app-home',
-  imports: [HousingLocation],
+  imports: [],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
 export class Home {
 
-  readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
+  readonly baseUrl = 'https://angular-tutorial-v1/assets/images/tutorials/common';
 
   housingLocation: HousingLocationInfo = {
     id: 9999,
