@@ -5,13 +5,13 @@ import {HousingLocation} from '../housing-location/housing-location';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [HousingLocation],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
 export class Home {
 
-  readonly baseUrl = 'https://angular-tutorial-v1/assets/images/tutorials/common';
+  readonly baseUrl = 'assets';
 
   housingLocation: HousingLocationInfo = {
     id: 9999,
