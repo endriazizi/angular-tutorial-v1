@@ -7,3 +7,5 @@
 
 ng generate component housingLocation
 
+ng generate interface housinglocation
+
